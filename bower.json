@@ -1,0 +1,26 @@
+{
+  "name": "mascota",
+  "homepage": "https://github.com/santiillanoz/mascota",
+  "description": "Portal de circulo animal",
+  "main": "index.html",
+  "keywords": [
+    "animales",
+    "mascotas",
+    "circulo",
+    "adopcion"
+  ],
+  "authors": [
+    "Santiago Llanos - santi-llanos@hotmail.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

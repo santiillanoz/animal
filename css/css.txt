@@ -1,1 +1,74 @@
-Aqui van las hojas de estilo
+body{
+    background-image: url("http://tub.tubgit.com/reimg/resize-img.php?src=http://photos.up-wallpaper.com/images247/xgn014puuoa.jpg&h=450&w=728");
+}
+
+#contenedor-principal{
+    margin: animal;
+    width: 1200px;
+}
+
+#menu{
+    border-bottom: #B40431 3px solid;
+}
+
+.fondo-negro-transparente{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.contenedor-fila{
+    width: 96%; 
+    display: inline-block; 
+    padding: 2%;
+}
+
+.contenedor-columna-izquierda{
+    float: left;
+}
+
+.contenedor-columna-derecha{
+    float: right;
+}
+
+.tamano-20{
+    width: 20%; 
+}
+
+.tamano-50{
+    width: 50%; 
+}
+
+.tamano-80{
+    width: 80%; 
+}
+
+.tamano-100{
+    width: 100%;
+}
+
+.letra-blanca{
+    color: white;
+}
+
+.letra-escarlata{
+    color: #B40431;
+}
+
+.super-titulo{
+    font-size: 60px;
+}
+
+.titulo{
+    font-family: 'Helvetiva';
+}
+
+.texto-centro{
+    text-align: center;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+.margen-texto{
+    padding-left: 5%;
+    padding-right: 5%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Formulario</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+	<style>
+    .form-control{
+       width:100%;
+       border-radius:5px;
+    }
+</style>
+<div class="container-fluid">
+    <center><h1>Mi perfil</h1></center>
+</head>
+<body>
+	<div class="contenedor-formulario">
+  <div class="wrap">
+    <form action="" class="formulario" name="formulario_registro" method="get">
+      <div>
+        <div class="input-group">
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre de la mascota:">
+          <label class="label" > </label>
+        </div>
+        <label class="input-group"><label for="tipoMascota">Tipo de Mascota...</label> 
+                <select class="label" name="tipomascota" id="tipomascota">
+                    <option value="1">Perro</option>
+                    <option value="2">Gato</option>
+                    <option value="3">Ave</option>
+                    <option value="4">Caballo</option>
+                    <option value="5">Conejo</option>
+                </select><br><br>
+       </div>
+       <div class="input-group"><label for="label">Fecha de Nacimiento:</label>
+			 <input type="date" class="label" name="fechaNacimiento" placeholder="Fecha de Nacimiento (aaaa-mm-dd)"><br><br>
+      </div>
+      <div class="input-group radio">
+          <input type="radio" name="macho" id="macho" value="macho">
+          <label for="macho">Macho</label>
+          <input type="radio" name="hembra" id="hembra" value="hembra">
+          <label for="hembra">Hembra</label>
+        </div>
+        <input type="submit" id="btn-submit" value="Guardar">
+    </form>
+  </div>
+</div>
+		<script src="js/formulario.js"></script>
+</body>
+</html>
