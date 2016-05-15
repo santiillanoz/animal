@@ -1,5 +1,5 @@
 body{
-    background-image: url("http://tub.tubgit.com/reimg/resize-img.php?src=http://photos.up-wallpaper.com/images247/xgn014puuoa.jpg&h=450&w=728");
+    background-image: url("http://www.pblb.eu/topimagenes.net/wp-content/uploads/2015/04/imagenes-de-fondo-de-pantalla-3-tiras-luminosas.jpg");
 }
 
 #contenedor-principal{
